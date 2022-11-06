@@ -1,4 +1,4 @@
-export default function tes() {
+export default function project1() {
   return (
     <div>
       {/* <!DOCTYPE html>*/}
