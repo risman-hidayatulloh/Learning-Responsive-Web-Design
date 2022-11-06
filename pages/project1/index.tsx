@@ -15,7 +15,11 @@ export default function tes() {
           {/* TODO: Add link to cat photos */}
           <p>
             Click here to view more{' '}
-            <a target="_blank" href="https://freecatphotoapp.com">
+            <a
+              target="_blank"
+              href="https://freecatphotoapp.com"
+              rel="noreferrer"
+            >
               cat photos
             </a>
             .
@@ -86,7 +90,7 @@ export default function tes() {
               </label>
             </fieldset>
             <fieldset>
-              <legend>What's your cat's personality?</legend>
+              <legend>Whats your cats personality?</legend>
               <input
                 id="loving"
                 type="checkbox"

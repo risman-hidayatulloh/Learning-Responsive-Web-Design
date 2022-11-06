@@ -15,19 +15,19 @@ export default function Home() {
       <main className={styles.main}>
         <h3 className={styles.title}>Responsive Web Design Course Results</h3>
         <p className={styles.description}>
-          In this Responsive Web Design Certification, you'll learn the
+          In this Responsive Web Design Certification, you will learn the
           languages that developers use to build webpages: HTML (Hypertext
           Markup Language) for content, and CSS (Cascading Style Sheets) for
           design.
         </p>
         <p className={styles.description}>
-          First, you'll build a cat photo app to learn the basics of HTML and
-          CSS. Later, you'll learn modern techniques like CSS variables by
+          First, you will build a cat photo app to learn the basics of HTML and
+          CSS. Later, you will learn modern techniques like CSS variables by
           building a penguin, and best practices for accessibility by building a
           quiz site.
         </p>
         <p className={styles.description}>
-          Finally, you'll learn how to make webpages that respond to different
+          Finally, you will learn how to make webpages that respond to different
           screen sizes by building a photo gallery with Flexbox, and a magazine
           article layout with CSS Grid.
         </p>
@@ -37,7 +37,7 @@ export default function Home() {
             <p>
               HTML tags give a webpage its structure. You can use HTML tags to
               add photos, buttons, and other elements to your webpage. In this
-              course, you'll learn the most common HTML tags by building your
+              course, you will learn the most common HTML tags by building your
               own cat photo app. Has 69 tasks to learn.
             </p>
           </Link>
@@ -47,7 +47,7 @@ export default function Home() {
             <p>
               CSS tells the browser how to display your webpage. You can use CSS
               to set the color, font, size, and other aspects of HTML elements.
-              In this course, you'll learn CSS by designing a menu page for a
+              In this course, you will learn CSS by designing a menu page for a
               cafe webpage. Has 91 tasks to learn.
             </p>
           </Link>
@@ -58,10 +58,10 @@ export default function Home() {
             </h2>
             <p>
               Selecting the correct colors for your webpage can greatly improve
-              the aesthetic appeal to your readers. In this course, you'll build
-              a set of colored markers. You'll learn different ways to set color
-              values and how to pair colors with each other. Has 94 tasks to
-              learn.
+              the aesthetic appeal to your readers. In this course, you will
+              build a set of colored markers. you will learn different ways to
+              set color values and how to pair colors with each other. Has 94
+              tasks to learn.
             </p>
           </Link>
 
@@ -69,9 +69,9 @@ export default function Home() {
             <h2>4. Learn HTML Foms by Building a Registration Form &rarr;</h2>
             <p>
               You can use HTML forms to collect information from people who
-              visit your webpage. In this course, you'll learn HTML forms by
-              building a signup page. You'll learn how to control what types of
-              data people can type into your form, and some new CSS tools for
+              visit your webpage. In this course, you will learn HTML forms by
+              building a signup page. you will learn how to control what types
+              of data people can type into your form, and some new CSS tools for
               styling your page. Has 63 tasks to learn.
             </p>
           </Link>
@@ -79,7 +79,11 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <a href="https://risman-hidayatulloh.vercel.app/" target="_blank">
+        <a
+          href="https://risman-hidayatulloh.vercel.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <small>Copyright &copy; 2022. Created by Risman Hidayatulloh</small>
           {/* <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
